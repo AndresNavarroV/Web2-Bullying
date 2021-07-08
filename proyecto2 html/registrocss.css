@@ -1,0 +1,112 @@
+body{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background:url(https://escuelasyjardines.com.ar/imagenes/no-al-bullying.jpg);
+  background-size:cover;
+    }
+h1 {
+        background: none repeat scroll #FDB8FF  ;
+        border-radius: 15px;
+        color: orange;
+        display: block;
+        font-family: Eras Bold ITC;
+        font-size: 35px;
+        padding: 5px;
+        width: 450px;
+    }
+label {
+        color: #000000 ;
+        display: inline-block;
+        float: center;
+        font-family: Eras Bold ITC;
+        font-size: 17px;
+        font-weight: bold;
+        margin-top: 3px;
+        padding: 3px;
+        width: 90px;
+        }
+input {
+        height:20px; 
+        width:220px; 
+        padding:5px 8px;
+        }
+input.a {
+        height:20px; 
+        width:20px; 
+        padding:10px 10px;
+        }
+input.b {
+        height:20px; 
+        width:20px; 
+        padding:10px 10px;
+        }
+button {
+        margin-left:90px;
+        }
+     
+    /*—– estilos visuales de los elementos ——–*/
+     
+input { 
+        border:1px solid #aaa;
+        box-shadow: 0px 0px 3px #ccc, 0 10px 15px #FF6969  inset;
+        border-radius:2px;
+        color: #000000 ;  
+        font-size: 12px;
+        padding-right:30px;
+        -moz-transition: padding .3s; 
+        -webkit-transition: padding .3s; 
+        -o-transition: padding .3s;
+        transition: padding .3s;
+    }
+input:focus {
+        background: #FF6969  ; 
+        border:1px solid #FF6969  ; 
+        box-shadow: 0 0 3px #aaa; 
+        padding-right:80px;
+    }
+     
+    /* === Estilos de Validacion === */ 
+     
+input:required:valid {
+        box-shadow: 0 0 5px #FF6969 ;
+        border-color: #FF6969 ;
+    }
+input:focus:invalid {
+        box-shadow: 0 0 5px #FF6969 ;
+        border-color: #FF6969  
+    }
+     
+    /* === Estilos del boton de Envio === */
+button {
+        padding: 9px 17px;
+        font-family: Eras Bold ITC, sans-serif;
+        font-weight: bold;
+        line-height: 1;
+        color: #C0EAFF  ;
+        border: none;
+        text-shadow: 0 1px 1px rgba(255, 255, 255, 0.85);
+        background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#C0EAFF), to(#bbb) );
+        background-image: -moz-linear-gradient(0% 100% 90deg, #C0EAFF, #C0EAFF);
+        background-color: #C0EAFF;
+        border: 1px solid #C0EAFF;
+        border-radius: 10px;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+    }
+button:hover {
+        opacity:.55;
+        cursor: pointer; 
+        color: #C0EAFF;
+    }
+button:active {
+        border: 1px solid #222;
+        box-shadow: 0 0 10px 5px #C0EAFF  inset; 
+    }
+    
+ a{
+    font-size: 18px;
+    text-align: left 50px;
+    color: #000000;
+}

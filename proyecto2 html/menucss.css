@@ -1,0 +1,129 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.tutorial {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background:url(https://miro.medium.com/max/7454/1*y0zFKOn8qAVwDVty096MGQ.jpeg);
+  background-size:cover;
+}
+
+.slide {
+  width: 100%;
+  height: 50px;
+}
+
+.informacio {
+   font-family: 'Eras Bold ITC';
+  font-weight:500;
+  text-decoration:none;
+  color:black;
+  margin:0 15px;
+  font-size:20px;
+  letter-spacing:1px;
+  position:relative;
+  display:inline-block;
+}
+
+.tutorial .slider {
+  width: 100%;
+  height: 20px;
+}
+
+.slidr {
+  width: 100%;
+  height: 400px;
+}
+
+.informacion{
+   font-family: 'Eras Bold ITC';
+  font-weight:500;
+  text-decoration:none;
+  color:black;
+  margin:0 15px;
+  font-size:35px;
+  letter-spacing:1px;
+  position:relative;
+  display:inline-block;
+}
+
+.tutorial .information {
+ font-family: 'Eras Bold ITC', sans-serif;
+  font-weight:500;
+  text-transform:uppercase;
+  text-decoration:none;
+  color:black;
+  margin:0 15px;
+  font-size:45px;
+  letter-spacing:1px;
+  position:relative;
+}
+
+.tutorial ul {
+  font-size: 10;
+  list-style-type: none;
+}
+
+.tutorial ul li {
+ font-family: 'Eras Bold ITC', sans-serif;
+  font-weight:500;
+  text-transform:uppercase;
+  text-decoration:none;
+  color:black;
+  margin:0 15px;
+  font-size:30px;
+  letter-spacing:1px;
+  position:relative;
+  display:inline-block;
+}
+
+@for $i from 1 through 5 {
+  nav a:nth-child(#{$i}){
+  }
+}
+.tutorial ul li ul {
+  display: none;
+}
+
+.tutorial ul li:hover {
+  cursor: pointer;
+
+}
+.tutorial ul li:hover ul {
+  display: block;
+  margin-top: 0px;
+  width: 200px;
+  left: 0;
+
+  position: absolute;
+}
+.tutorial a {
+  font-family: 'Eras Bold ITC', sans-serif;
+  font-weight:500;
+  text-transform:uppercase;
+  text-decoration:none;
+  color:black;
+  margin:0 10px;
+  font-size:25px;
+  letter-spacing:1px;
+  position:relative;
+  display:inline-block;
+}
+nav{
+  width: 100%;
+  position: fixed;
+  top:100px;
+}
